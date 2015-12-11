@@ -1,26 +1,11 @@
 {
-  "name": "shower-ribbon",
-  "description": "Ribbon theme for Shower HTML presentation engine",
+  "name": "shower-ugent",
+  "description": "UGEnt theme for Shower HTML presentation engine",
   "version": "2.0.0",
   "author": {
-    "name": "Vadim Makeev",
-    "url": "http://pepelsbey.net/"
+    "name": "UGent",
+    "url": "http://www.ugent.be/"
   },
-  "homepage": "https://github.com/shower/ribbon",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/shower/ribbon.git"
-  },
-  "bugs": {
-    "url": "http://github.com/shower/shower/issues"
-  },
-  "license": "MIT",
-  "keywords": [
-    "shower",
-    "presentation",
-    "ribbon",
-    "theme"
-  ],
   "scripts": {
     "server": "gulp",
     "styles": "gulp styles"

@@ -1,5 +1,5 @@
 {
-  "name": "shower-ribbon",
+  "name": "shower-ugent",
   "version": "2.0.0",
   "license": "MIT",
   "main": [
@@ -21,7 +21,7 @@
   "keywords": [
     "shower",
     "presentation",
-    "ribbon",
+    "ugent",
     "theme"
   ]
 }
