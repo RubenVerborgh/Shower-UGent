@@ -4,6 +4,7 @@
 
 ol, ul {
 
+	margin-left:2em;
 	margin-bottom:1em;
 	counter-reset:list;
 
@@ -17,7 +18,8 @@ ol, ul {
 		&:before {
 			display:inline-block;
 			width:2em;
-			color:lighten($grey, 25%);
+			color:$blue;
+			font-weight: bold;
 			text-align:right;
 			}
 
@@ -25,7 +27,6 @@ ol, ul {
 
 	ol, ul {
 		margin-bottom:0;
-		margin-left:2em;
 		}
 
 	}
@@ -34,10 +35,7 @@ ol, ul {
 
 ul > li:before {
 	padding-right:0.5em;
-	content:'•';
-	}
-ul > li:lang(ru):before {
-	content:'—';
+	content:'▪';
 	}
 ol > li:before {
 	padding-right:0.4em;
