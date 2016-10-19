@@ -4,12 +4,13 @@
 
 .double,
 .triple {
-	column-gap:75px;
 	hyphens:auto;
 	}
 .double {
 	column-count:2;
+	column-gap:2*$minorGridX;
 	}
 .triple {
 	column-count:3;
+	column-gap:1.5*$minorGridX;
 	}
