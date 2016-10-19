@@ -17,6 +17,10 @@
 $width:1024px;
 $height:$width/$ratio;
 $gap:100px;
+$majorGridX:$width/7;
+$minorGridX:$majorGridX/4;
+$majorGridY:$height/5;
+$minorGridY:$majorGridY/4;
 
 // Colors
 
