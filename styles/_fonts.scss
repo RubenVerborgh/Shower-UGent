@@ -1,45 +1,39 @@
 // ------------------------------------------------------------------
 // Fonts
 // ------------------------------------------------------------------
-// 1. PT Sans .......... Text font
-// 2. PT Sans Narrow ... Headings font
-// 3. PT Mono .......... Code font
-// ------------------------------------------------------------------
-
-// PT Sans
 
 @font-face {
-	font-family:PT Sans;
-	src:url(../fonts/pt-sans-regular.woff) format('woff');
-	}
-@font-face {
-	font-weight:bold;
-	font-family:PT Sans;
-	src:url(../fonts/pt-sans-bold.woff) format('woff');
-	}
-@font-face {
-	font-style:italic;
-	font-family:PT Sans;
-	src:url(../fonts/pt-sans-italic.woff) format('woff');
-	}
-@font-face {
-	font-style:italic;
-	font-weight:bold;
-	font-family:PT Sans;
-	src:url(../fonts/pt-sans-bold-italic.woff) format('woff');
-	}
-
-// PT Narrow
+	font-family: UGentPanno;
+	font-weight: 400;
+	src: url("../fonts/ugentpannotext-normal-web.eot");
+	src: url("../fonts/ugentpannotext-normal-web.eot")  format("embedded-opentype"),
+		 url("../fonts/ugentpannotext-normal-web.woff") format("woff"),
+		 url("../fonts/ugentpannotext-normal-web.ttf")  format("truetype")
+}
 
 @font-face {
-	font-family:PT Sans Narrow;
-	font-weight:bold;
-	src:url(../fonts/pt-sans-narrow-bold.woff) format('woff');
-	}
-
-// PT Mono
+	font-family: UGentPanno;
+	font-weight: 600;
+	src: url("../fonts/ugentpannotext-semibold-web.eot");
+	src: url("../fonts/ugentpannotext-semibold-web.eot")  format("embedded-opentype"),
+		 url("../fonts/ugentpannotext-semibold-web.woff") format("woff"),
+		 url("../fonts/ugentpannotext-semibold-web.ttf")  format("truetype")
+}
 
 @font-face {
-	font-family:PT Mono;
-	src:url(../fonts/pt-mono-regular.woff) format('woff');
-	}
+	font-family: UGentPanno;
+	font-weight: 700; // actually 600, but this makes it equivalent to bold
+	src: url("../fonts/ugentpannotext-medium-web.eot");
+	src: url("../fonts/ugentpannotext-medium-web.eot")  format("embedded-opentype"),
+		 url("../fonts/ugentpannotext-medium-web.woff") format("woff"),
+		 url("../fonts/ugentpannotext-medium-web.ttf")  format("truetype")
+}
+
+@font-face {
+	font-family: UGentPanno;
+	font-weight: 300;
+	src: url("../fonts/ugentpannotext-semilight-web.eot");
+	src: url("../fonts/ugentpannotext-semilight-web.eot")  format("embedded-opentype"),
+		 url("../fonts/ugentpannotext-semilight-web.woff") format("woff"),
+		 url("../fonts/ugentpannotext-semilight-web.ttf")  format("truetype")
+}
