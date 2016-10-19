@@ -4,23 +4,23 @@
 
 ol, ul {
 
-	margin-left:2em;
+	margin-left:$minorGridX;
 	margin-bottom:1em;
 	counter-reset:list;
 
 	li {
 
 		page-break-inside:avoid;
-		text-indent:-2em;
+		text-indent:-$minorGridX/2;
 
 		// Marker
 
 		&::before {
 			display:inline-block;
-			width:2em;
+			width:$minorGridX/2;
 			color:$blue;
 			font-weight: bold;
-			text-align:right;
+			text-align:left;
 			}
 
 		}
