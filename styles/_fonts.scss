@@ -4,7 +4,16 @@
 
 @font-face {
 	font-family: UGentPanno;
-	font-weight: 400;
+	font-weight: 400; // actually 300, but this makes more contrast with bold
+	src: url("../fonts/ugentpannotext-semilight-web.eot");
+	src: url("../fonts/ugentpannotext-semilight-web.eot")  format("embedded-opentype"),
+		 url("../fonts/ugentpannotext-semilight-web.woff") format("woff"),
+		 url("../fonts/ugentpannotext-semilight-web.ttf")  format("truetype")
+}
+
+@font-face {
+	font-family: UGentPanno;
+	font-weight: 500; // actually 400
 	src: url("../fonts/ugentpannotext-normal-web.eot");
 	src: url("../fonts/ugentpannotext-normal-web.eot")  format("embedded-opentype"),
 		 url("../fonts/ugentpannotext-normal-web.woff") format("woff"),
@@ -27,13 +36,4 @@
 	src: url("../fonts/ugentpannotext-medium-web.eot")  format("embedded-opentype"),
 		 url("../fonts/ugentpannotext-medium-web.woff") format("woff"),
 		 url("../fonts/ugentpannotext-medium-web.ttf")  format("truetype")
-}
-
-@font-face {
-	font-family: UGentPanno;
-	font-weight: 300;
-	src: url("../fonts/ugentpannotext-semilight-web.eot");
-	src: url("../fonts/ugentpannotext-semilight-web.eot")  format("embedded-opentype"),
-		 url("../fonts/ugentpannotext-semilight-web.woff") format("woff"),
-		 url("../fonts/ugentpannotext-semilight-web.ttf")  format("truetype")
 }
