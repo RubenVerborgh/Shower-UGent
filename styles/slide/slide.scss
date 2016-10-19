@@ -20,7 +20,7 @@
 
 	// Number
 
-	&:after {
+	&::after {
 		position:absolute;
 		top:3px;
 		right:60px;
@@ -54,7 +54,7 @@
 	// Elements
 
 	@import
-		'elements/double',
+		'elements/columns',
 		'elements/shout',
 		'elements/cover',
 		'elements/place';

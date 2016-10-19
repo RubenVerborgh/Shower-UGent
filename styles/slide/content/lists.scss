@@ -15,7 +15,7 @@ ol, ul {
 
 		// Marker
 
-		&:before {
+		&::before {
 			display:inline-block;
 			width:2em;
 			color:$blue;
@@ -33,11 +33,11 @@ ol, ul {
 
 // Markers
 
-ul > li:before {
+ul > li::before {
 	padding-right:0.5em;
 	content:'▪';
 	}
-ol > li:before {
+ol > li::before {
 	padding-right:0.4em;
 	counter-increment:list;
 	content:counter(list)'.';

@@ -1,22 +1,47 @@
 {
   "name": "shower-ugent",
   "description": "UGent theme for Shower HTML presentation engine",
-  "version": "2.0.0",
+  "version": "2.0.8",
   "author": {
     "name": "UGent",
     "url": "http://www.ugent.be/"
   },
-  "scripts": {
-    "server": "gulp",
-    "styles": "gulp styles"
-  },
+  "homepage": "https://github.com/shower/ribbon",
+  "repository": "https://github.com/RubenVerborgh/UGent-Shower",
+  "keywords": [
+    "shower",
+    "presentation",
+    "ribbon",
+    "theme",
+    "ugent"
+  ],
+  "files": [
+    "docs/**",
+    "fonts/**",
+    "images/**",
+    "pictures/**",
+    "styles/*.css",
+    "index.html",
+    "LICENSE.md",
+    "README.md"
+  ],
   "devDependencies": {
-    "browser-sync": "^2.10.0",
-    "gulp": "^3.9.0",
-    "gulp-autoprefixer": "^3.1.0",
-    "gulp-header": "^1.7.1",
-    "gulp-minify-css": "^1.2.2",
-    "gulp-release-it": "^1.0.6",
-    "gulp-sass": "^2.1.0"
+    "autoprefixer": "^6.4.0",
+    "browser-sync": "^2.14.0",
+    "gulp": "^3.9.1",
+    "gulp-header": "^1.8.8",
+    "gulp-postcss": "^6.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-sass": "^2.3.2",
+    "path-exists-cli": "^1.0.0",
+    "postcss-csso": "^1.1.2",
+    "shower-core": "^2.0.7"
+  },
+  "scripts": {
+    "dev": "gulp",
+    "styles": "gulp styles",
+    "prepublish": "npm run styles",
+    "test": "path-exists styles/screen-16x10.css && path-exists styles/screen-4x3.css"
   }
 }
