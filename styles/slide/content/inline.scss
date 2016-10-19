@@ -8,9 +8,11 @@ a {
 	}
 b, strong {
 	font-weight:bold;
+	color:$blue;
 	}
 i, em, dfn {
-	font-style:italic;
+	font-weight:600;
+	color:#555;
 	}
 code, kbd, mark, samp {
 	padding:0.1em 0.3em;
