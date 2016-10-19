@@ -4,10 +4,9 @@
 
 &.black {
 
-	background-color:#000;
-
-	&::after {
-		visibility:hidden;
-		}
+	background:#FFF url(../images/background.svg) no-repeat;
+	* {
+		color: white !important;
+	}
 
 	}
