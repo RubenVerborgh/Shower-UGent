@@ -4,20 +4,19 @@
 
 .progress {
 
-	$size:6px;
+	$size:$minorGridY/5;
 
 	position:absolute;
 	left:- $size * 2;
-	bottom:0;
+	bottom:-1px;
 	z-index:1;
 	display:none;
 	width:0;
 	height:0;
 	box-sizing:content-box;
-	border:$size solid $yellow;
-	border-right-color:transparent;
+	border:($size + 1px) solid $blue;
+	border-top: none;
 	transition:width 0.2s linear;
-	clip:rect($size, $width + $size * 2, $size * 2, $size * 2);
 
 	// Hiding corner
 
