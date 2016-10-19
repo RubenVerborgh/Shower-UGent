@@ -29,6 +29,7 @@
 		counter-increment:slide;
 		content:counter(slide);
 		text-align:right;
+		color:$blue;
 		}
 
 	&::before {
