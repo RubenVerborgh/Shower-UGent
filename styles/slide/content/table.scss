@@ -8,30 +8,24 @@
 
 table {
 
-	margin-left:-100px;
-	margin-bottom:1em;
-	width:calc(100% + 100px + 100px);
+	margin: 0 0 $minorGridY (-$minorGridX);
 
 	// Cells
-
-	th:first-child,
-	td:first-child {
-		padding-left:96px;
-		}
-	th:last-child,
-	td:last-child {
-		padding-right:96px;
-		}
+	td, th {
+		min-width: 6*$minorGridX;
+		padding: 0 $minorGridX;
+	}
 	th {
 		text-align:left;
 		font-weight:bold;
+		color:$blue,
 		}
 
 	// Lines
 
 	tr:not(:last-of-type) {
 		> * {
-			@include underline($grey-line, 0.055);
+			@include underline(rgba($blue,.25), 0.055);
 			}
 		}
 
@@ -40,7 +34,7 @@ table {
 	&.striped {
 		tr {
 			&:nth-child(even) {
-				background:$grey-back;
+				background:rgba($blue,.1);
 				}
 			> * {
 				background-image:none;
