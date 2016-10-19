@@ -31,13 +31,14 @@ pre {
 		line-height:2;
 		white-space:pre;
 		tab-size:4;
+		color: black;
 
 		&:not(:only-child) {
 
 			// Marked Lines
 
 			&.mark {
-				background:$grey-back;
+				background:rgba($blue,.1);
 				}
 
 			// Line Numbers
@@ -45,7 +46,7 @@ pre {
 			&::before {
 				position:absolute;
 				margin-left:-2em;
-				color:lighten($grey, 25%);
+				color:$blue;
 				counter-increment:code;
 				content:counter(code, decimal-leading-zero)'.';
 				}
@@ -65,7 +66,7 @@ pre {
 		// Important
 
 		&.important {
-			background:#C00;
+			background:#DC4E28;
 			color:#FFF;
 			}
 
@@ -74,7 +75,7 @@ pre {
 	// Comment
 
 	.comment {
-		color:#999;
+		color:$blue;
 		}
 
 	}
