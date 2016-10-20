@@ -12,11 +12,10 @@
 	position:relative;
 	z-index:1;
 	overflow:hidden;
-	padding:$minorGridY $minorGridX $majorGridY 3*$minorGridX;
+	padding:$minorGridY $minorGridX $majorGridY (3*$minorGridX - 1px);
 	width:$width;
 	height:$height;
 	background:#FFF;
-	font-size:25px;
 
 	// Number
 

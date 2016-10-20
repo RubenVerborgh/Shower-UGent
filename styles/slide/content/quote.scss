@@ -4,6 +4,7 @@
 
 blockquote {
 	color:$blue;
+	padding-top: $minorGridY;
 
 	&::before {
 		position:absolute;
@@ -16,8 +17,7 @@ blockquote {
 	// Author
 
 	& + figcaption {
-		margin:-1em 0 1em;
-		font-weight:bold;
+		margin:-($minorGridY + 10px) 1em 0 -10px;
 			&::before {
 				content: "—";
 			}

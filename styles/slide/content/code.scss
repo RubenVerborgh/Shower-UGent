@@ -14,7 +14,7 @@
 
 pre {
 
-	margin-bottom:1em;
+	margin: -10px 0 0;
 	counter-reset:code;
 	white-space:normal;
 
@@ -28,7 +28,7 @@ pre {
 		width:calc(100% + 100px + 100px);
 		border-radius:0;
 		background:none;
-		line-height:2;
+		line-height: 2*$minorGridY;
 		white-space:pre;
 		tab-size:4;
 		color: black;
@@ -45,7 +45,7 @@ pre {
 
 			&::before {
 				position:absolute;
-				margin-left:-2em;
+				margin-left:-2*$minorGridX;
 				color:$blue;
 				counter-increment:code;
 				content:counter(code, decimal-leading-zero)'.';

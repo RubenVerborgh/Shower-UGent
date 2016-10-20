@@ -4,8 +4,7 @@
 
 ol, ul {
 
-	margin-left:$minorGridX;
-	margin-bottom:1em;
+	margin: -10px 0 ($minorGridY + 10px) $minorGridX;
 	counter-reset:list;
 
 	li {
@@ -26,6 +25,7 @@ ol, ul {
 		}
 
 	ol, ul {
+		margin-top:0;
 		margin-bottom:0;
 		}
 
