@@ -17,14 +17,15 @@
 $width:1024px;
 $height:$width/$ratio;
 $gap:100px;
+$majorGridX:$width/7;
+$minorGridX:$majorGridX/4;
+$majorGridY:$height/5;
+$minorGridY:$majorGridY/4;
 
 // Colors
 
-$blue: #1A4175;
-$yellow: #FAB900;
-$grey:#585A5E;
-$grey-back:rgba($grey, 0.10);
-$grey-line:rgba($grey, 0.5);
+$blue: #1E64C8;
+$yellow: #FFD200;
 
 // Retina
 

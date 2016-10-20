@@ -3,15 +3,15 @@
 // ------------------------------------------------------------------
 
 h2 {
-	margin-bottom:34px;
 	color:$blue;
 	font-weight: bold;
 	font-size: 50px;
 	line-height: 1;
+	margin: -9px 0 ($minorGridY - 9px) 0; // font adjustment
 	}
 p {
-	margin-bottom:1em;
+	margin: -10px 0 ($minorGridY + 10px) 0;
 	&.note {
-		color:lighten($grey, 25%);
+		color:rgba(black,.33);
 		}
 	}

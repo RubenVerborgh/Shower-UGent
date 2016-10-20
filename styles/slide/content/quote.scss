@@ -3,13 +3,12 @@
 // ------------------------------------------------------------------
 
 blockquote {
-
-	font-style:italic;
+	color:$blue;
+	padding-top: $minorGridY;
 
 	&::before {
 		position:absolute;
-		margin:-0.15em 0 0 -0.43em;
-		color:#CCC;
+		margin:-0.25em 0 0 -0.3em;
 		line-height:1;
 		font-size:8em;
 		content:'\201C';
@@ -18,9 +17,10 @@ blockquote {
 	// Author
 
 	& + figcaption {
-		margin:-1em 0 1em;
-		font-style:italic;
-		font-weight:bold;
+		margin:-($minorGridY + 10px) 1em 0 -10px;
+			&::before {
+				content: "—";
+			}
 		}
 
 	}
