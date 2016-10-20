@@ -21,13 +21,14 @@
 
 	&::after {
 		position:absolute;
-		bottom:$minorGridY;
-		right:$minorGridX;
+		bottom:$minorGridY + 8px;
+		right:$minorGridX - 1px;
 		width:3*$minorGridX;
 		height:$minorGridY;
 		counter-increment:slide;
 		content:counter(slide);
 		text-align:right;
+		font-size: 24px;
 		color:$blue;
 		}
 
